@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Absensi QRCode</string>
+    <string name="mohon_tunggu">Mohon Tunggu</string>
+    <string name="nim">NIM</string>
+    <string name="password">Password</string>
+    <string name="beranda">Beranda</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="profil">Profil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="online">Online</string>
+    <string name="absen">Absen</string>
+    <string name="ganti_password">Ganti Password</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="hubungi_kami">Hubungi Kami</string>
+    <string name="keluar">Keluar</string>
+</resources>

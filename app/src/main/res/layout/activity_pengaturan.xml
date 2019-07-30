@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controllers.Pengaturan.PengaturanActivity"
+    android:background="@color/md_grey_200">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/md_white_1000"
+        app:cardElevation="3dp"
+        app:cardMaxElevation="3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/cvPengaturanGantiPassword"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ganti_password"
+                android:textSize="13sp"
+                android:textColor="@color/colorAccent"
+                android:padding="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ganti_password"
+                android:textSize="17sp"
+                android:padding="12dp"
+                android:foreground="?selectableItemBackgroundBorderless"
+                android:focusable="true"
+                android:clickable="true"/>
+
+            <View
+                style="@style/DividerHorizontal"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/md_white_1000"
+        app:cardElevation="3dp"
+        app:cardMaxElevation="3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cvPengaturanGantiPassword"
+        android:id="@+id/cvPengaturanBantuan"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bantuan"
+                android:textSize="13sp"
+                android:textColor="@color/colorAccent"
+                android:padding="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hubungi_kami"
+                android:textSize="17sp"
+                android:padding="12dp"
+                android:foreground="?selectableItemBackgroundBorderless"
+                android:focusable="true"
+                android:clickable="true"/>
+
+            <View
+                style="@style/DividerHorizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/keluar"
+                android:textSize="17sp"
+                android:padding="12dp"
+                android:foreground="?selectableItemBackgroundBorderless"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/tvPengaturanKeluar"/>
+
+            <View
+                style="@style/DividerHorizontal"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cvPengaturanBantuan"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="Made in indonesia"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Abdul Rohman"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
